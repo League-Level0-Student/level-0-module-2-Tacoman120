@@ -49,7 +49,7 @@ if(x > 800){
 
 
 
-/*
+
 import ddf.minim.*;
 boolean soundPlayed = false;
 void playSound() {
@@ -66,4 +66,3 @@ void playSound() {
   textSize(36);
   text("WINNER!!", width/2, height/2);
 }
-*/

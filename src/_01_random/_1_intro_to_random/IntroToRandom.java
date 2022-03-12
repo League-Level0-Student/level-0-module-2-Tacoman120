@@ -46,7 +46,7 @@ public class IntroToRandom {
 		
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, and replace (_____)  with   (highest value - lowest value + 1)
-			// For our example, this will be:  ( 75 - 25 + 1 )
+			// For our example, this will be: ( 75 - 25 + 1 ) 
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
 			 number = ran.nextInt(-225 - 25 + 1);

@@ -6,20 +6,12 @@ import javax.swing.JOptionPane;
 
 public class LotteryNumbers {
 	public static void main (String[] args) {
-		
-	Random ran = new Random();
-int fred;
-
-for(int I; I = 0; I > 7; I++)
-fred = ran.nextInt(100);
-
-
-JOptionPane.showMessageDialog(null, fred);;
-
-	String one = ""
-		
-		
-		
-		
+		String lottery = "";
+	Random randy = new Random();
+	for(int i = 0; i < 6; i++) {
+	int number = randy.nextInt(100);
+	lottery+=" "+String.valueOf(number);
+	}
+	JOptionPane.showMessageDialog(null, lottery);		
 	}
 }
